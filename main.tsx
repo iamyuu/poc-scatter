@@ -1,10 +1,10 @@
 import * as React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { App } from "./with-svg";
+import { ScatterChartStocks } from "./with-d3";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
-		<App />
+		<ScatterChartStocks />
 	</React.StrictMode>,
 );
